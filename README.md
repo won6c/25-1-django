@@ -143,6 +143,7 @@ if settings.DEBUG:
 - 현재 URL의 절대 경로 반환(도메인 포함)
 
 <br><br>
+<hr>
 
 - Django 템플릿에서는 context라는 딕셔너리 전체를 넘기지 않습니다.
 - render(request, template_name, context)를 호출하면 context 딕셔너리의 키(key) 들이 템플릿에 각각 변수로 등록됩니다.
