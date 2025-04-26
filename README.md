@@ -51,7 +51,7 @@ def logout_view(request):
     return redirect('login')
 ```
 
-    - 로그를 남겨서 "언제 누가 로그아웃했는지" 기록하는 처리가 필요할 수 있음
+  - 로그를 남겨서 "언제 누가 로그아웃했는지" 기록하는 처리가 필요할 수 있음
 
 ```python
 def logout_view(request):
